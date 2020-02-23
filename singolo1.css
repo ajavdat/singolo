@@ -62,6 +62,11 @@ header {
   font-family: 'Lato Bold';
 }
 
+.header-inner a:hover {
+  transition: 0.5s;
+  color: #f06c64;
+}
+
 .logo {
   font-size: 24.5px;
 }
@@ -111,8 +116,15 @@ header {
 
 .button {
   background: transparent;
-  border: 0;
+  border: none;
   cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+}
+
+.button:hover {
+  filter: brightness(3);
+
 }
 
 .button-previous {
