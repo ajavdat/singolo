@@ -98,6 +98,39 @@ main {
 
 .slider-inner {
   height: 594px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.button-previous {
+  position: relative;
+  top: -1px;
+  left: 2px;
+}
+
+.button-next {
+  transform: scaleX(-1);
+  position: relative;
+  top: -1px;
+  left: 1px;
+}
+
+.iphone-vertical {
+  position: relative;
+  top: -3px;
+  left: -5px;
+}
+
+.iphone-horizontal {
+  position: relative;
+  top: -3px;
+  left: 7px;
 }
 
 /*- SERVICES -*/
