@@ -1,71 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Singolo</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="singolo1.css" />
-  </head>
-  <body>
-    <header>
+
+<head>
+  <title>Singolo</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="singolo1.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="wrapper header-inner">
+        <h1 class="logo"><a href="#">Singolo</a></h1>
+        <nav class="main-menu">
+          <ul class="navigation">
+            <li class="navigation-item active"><a href="#">Home</a></li>
+            <li class="navigation-item"><a href="#">Services</a></li>
+            <li class="navigation-item"><a href="#">Portfolio</a></li>
+            <li class="navigation-item"><a href="#">About</a></li>
+            <li class="navigation-item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="slider">
       <div class="container">
-        <div class="wrapper header-inner">
-          <h1 class="logo"><a href="#">Singolo</a></h1>
-          <nav class="main-menu">
-            <ul class="navigation">
-              <li class="navigation-item active"><a href="#">Home</a></li>
-              <li class="navigation-item"><a href="#">Services</a></li>
-              <li class="navigation-item"><a href="#">Portfolio</a></li>
-              <li class="navigation-item"><a href="#">About</a></li>
-              <li class="navigation-item"><a href="#">Contact</a></li>
-            </ul>
-          </nav>
+        <div class="wrapper slider-inner">
+          <button class="button button-previous">
+            <img src="assets/img/chev.svg" width="16" height="27" alt="previous slide" />
+          </button>
+          <img class="iphone-vertical" src="assets/img/iphoneVertical.png" width="240" height="483"
+            alt="iPhone in landscape orientation" />
+          <img class="iphone-horizontal" src="assets/img/iphoneHorizontal.png" width="484" height="240"
+            alt="iPhone in album orientation" />
+          <button class="button button-next">
+            <img src="assets/img/chev.svg" width="16" height="27" alt="next slide" />
+          </button>
         </div>
       </div>
-    </header>
-    <main>
-      <section id="slider">
-        <div class="container">
-          <div class="wrapper slider-inner">
-            <button class="button button-previous">
-              <img
-                src="assets/img/chev.svg"
-                width="16"
-                height="27"
-                alt="previous slide"
-              />
-            </button>
-            <img
-              class="iphone-vertical"
-              src="assets/img/iphoneVertical.png"
-              width="240"
-              height="483"
-              alt="iPhone in landscape orientation"
-            />
-            <img
-              class="iphone-horizontal"
-              src="assets/img/iphoneHorizontal.png"
-              width="484"
-              height="240"
-              alt="iPhone in album orientation"
-            />
-            <button class="button button-next">
-              <img
-                src="assets/img/chev.svg"
-                width="16"
-                height="27"
-                alt="next slide"
-              />
-            </button>
-          </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <div class="wrapper services-inner">
+          <h1 class="section-title">Our services</h1>
+          <p class="description">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris
+            condimentum. Duis mollis, non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac
+            cursus commodo, tortor mauris condimentum nibh.
+          </p>
+          <ul class="services-list">
+            <li>
+              <article class="service-type">
+                <div class="service-icon">
+                  <img src="assets/img/pen.svg" alt="pen" />
+                </div>
+                <div class="service-info">
+                  <h3 class="service-title">Custom design</h3>
+                  <p class="service-description">
+                    Curabitur vestibulum eget mauris quis laoreet. Phasellus
+                    in quam laoreet, viverra lacus ut, ultrices velit.
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="service-type">
+                <div class="service-icon">
+                  <img src="assets/img/bulb.svg" alt="bulb" />
+                </div>
+                <div class="service-info">
+                  <h3 class="service-title">Inovative Ideas</h3>
+                  <p class="service-description">
+                    Quisque luctus, quam eget molestie commodo, lacus purus
+                    cursus purus, nec rutrum tellus dolor id lorem.
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="service-type">
+                <div class="service-icon">
+                  <img src="assets/img/heart.svg" alt="heart" />
+                </div>
+                <div class="service-info">
+                  <h3 class="service-title">Love is the answer</h3>
+                  <p class="service-description">
+                    Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
+                    turpis, et consequat felis. Quisque condimentum.
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="service-type">
+                <div class="service-icon">
+                  <img src="assets/img/phone.svg" alt="phone" />
+                </div>
+                <div class="service-info">
+                  <h3 class="service-title">Responsive layout</h3>
+                  <p class="service-description">
+                    Sed porttitor placerat rhoncus. In at nunc tellus.
+                    Maecenas blandit nunc ligula. Praesent elit leo.
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="service-type">
+                <div class="service-icon">
+                  <img src="assets/img/bubble.svg" alt="bubble" />
+                </div>
+                <div class="service-info">
+                  <h3 class="service-title">24 / 7 Support</h3>
+                  <p class="service-description">
+                    Vivamus vel quam lacinia, tincidunt dui non, vehicula
+                    nisi. Nulla a sem erat. Pellentesque egestas venenatis
+                    lorem .
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="service-type">
+                <div class="service-icon">
+                  <img src="assets/img/star.svg" alt="star" />
+                </div>
+                <div class="service-info">
+                  <h3 class="service-title">Feel Like A Star</h3>
+                  <p class="service-description">
+                    Quisque hendrerit purus dapibus, ornare nibh vitae,
+                    viverra nibh. Fusce vitae aliquam tellus.
+                  </p>
+                </div>
+              </article>
+            </li>
+          </ul>
         </div>
-      </section>
-      <section id="services">
-        <div class="container">
-          <div class="wrapper services-inner">
-            <div></div>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
