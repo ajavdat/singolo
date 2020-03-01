@@ -163,7 +163,6 @@ a {
     font-size: 12px;
     line-height: 21px;
     text-align: justify;
-    letter-spacing: 0.1px;
 }
 
 .social-networks {
@@ -171,6 +170,12 @@ a {
     flex-direction: row;
     margin-top: 24px;
     list-style: none;
+    cursor: pointer;
+}
+
+.social-network-item:hover {
+    transition: 0.5s;
+    filter: brightness(2);
 }
 
 .social-network-item:not(:last-child) {
