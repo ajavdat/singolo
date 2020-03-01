@@ -161,7 +161,7 @@ a {
 
 .staff-description {
     font-size: 12px;
-    line-height: 22px;
+    line-height: 21px;
     text-align: justify;
     letter-spacing: 0.1px;
 }
@@ -169,7 +169,7 @@ a {
 .social-networks {
     display: flex;
     flex-direction: row;
-    margin-top: 22px;
+    margin-top: 24px;
     list-style: none;
 }
 
