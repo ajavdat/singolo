@@ -114,6 +114,11 @@ a {
     color: #dedede;
 }
 
+.projects-box {
+    max-height: 600px;
+    overflow-y: hidden;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -156,7 +161,8 @@ a {
 .staff-full-name {
     margin: 12px 0 8px;
     font-size: 18px;
-    font-family: "Lato Bold", sans-serif;
+    font-family: "Lato Bold";
+    overflow-x: hidden;
 }
 
 .staff-description {
