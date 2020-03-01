@@ -53,21 +53,22 @@ a {
     border-bottom: 6px solid #323746;
 }
 
-.portfolio-inner {
+.portfolio-inner,
+.about-us-inner {
     flex-direction: column;
 }
 
 .section-title {
     margin-bottom: 18px;
     font-size: 30px;
-    font-family: "Lato Black", sans-serif;
+    font-family: "Lato Black";
 }
 
 .section-title+p {
     margin-bottom: 10px;
     font-size: 18px;
     line-height: 30px;
-    font-family: "Lato Light", sans-serif;
+    font-family: "Lato Light";
     text-align: justify;
 }
 
@@ -132,4 +133,46 @@ a {
     background-color: #f2f2f2;
     height: 734px;
     border-bottom: 6px solid #fff;
+    padding-top: 58px;
+}
+
+.about-us-inner .section-title {
+    text-transform: capitalize;
+}
+
+.staff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 36px;
+    list-style: none;
+}
+
+.staff li.staff-item {
+    width: 300px;
+    height: 454px;
+}
+
+.staff-full-name {
+    margin: 12px 0 8px;
+    font-size: 18px;
+    font-family: "Lato Bold", sans-serif;
+}
+
+.staff-description {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.1px;
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+    list-style: none;
+}
+
+.social-network-item:not(:last-child) {
+    margin-right: 8px;
 }
