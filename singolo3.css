@@ -51,7 +51,7 @@ a {
 
 /*- GET QUOTE -*/
 #get-quote {
-    height: 653px;
+    height: 654px;
     background-color: #f06c64;
     padding-top: 59px;
     border-bottom: 6px solid #ea676b;
@@ -179,6 +179,34 @@ textarea.form-input {
 
 /*- FOOTER -*/
 footer {
-    height: 76px;
     background-color: #2d303a;
+    color: #666d89;
+}
+
+.footer-inner {
+    height: 76px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copy {
+    line-height: 20px;
+    font-size: 11.8px;
+}
+
+footer .social-networks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.social-network-item:hover {
+    transition: 0.5s;
+    filter: brightness(2);
+}
+
+.social-network-item:not(:last-child) {
+    margin-right: 8px;
 }
