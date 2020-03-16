@@ -1,6 +1,5 @@
 /*NAVIGATION*/
 let navElements = document.querySelectorAll('.navigation-item')
-console.log(navElements);
 navElements.forEach(item =>
     item.addEventListener('click', function () {
         let currentActiveElement = document.getElementsByClassName('navigation-item active');

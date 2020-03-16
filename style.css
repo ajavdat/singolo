@@ -51,6 +51,9 @@ a {
 
 /*- HEADER -*/
 header {
+    /* position: sticky;
+    top: 0;
+    z-index: 999; */
     background-color: #2d303a;
     color: #fff;
     border-bottom: 6px solid #323746;
@@ -113,9 +116,15 @@ header {
 }
 
 .slider-inner {
+    position: relative;
     height: 594px;
     align-items: center;
     justify-content: space-between;
+}
+
+.slider-buttons {
+    position: absolute;
+    width: 100%;
 }
 
 .button {
@@ -128,20 +137,19 @@ header {
 
 .button:hover {
     filter: brightness(3);
-
 }
 
 .button-previous {
-    position: relative;
-    top: -1px;
+    position: absolute;
+    top: -16px;
     left: 2px;
 }
 
 .button-next {
     transform: scaleX(-1);
-    position: relative;
-    top: -1px;
-    left: 1px;
+    position: absolute;
+    top: -16px;
+    right: 80px;
 }
 
 .iphone-vertical {

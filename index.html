@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head id="home">
+<head>
     <title>Singolo</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="container">
             <div class="wrapper header-inner">
                 <h1 class="logo"><a href="#home">Singolo</a></h1>
@@ -29,16 +29,20 @@
         <section id="slider">
             <div class="container">
                 <div class="wrapper slider-inner">
-                    <button class="button button-previous">
-                        <img src="assets/img/chev.svg" width="16" height="27" alt="previous slide" />
-                    </button>
-                    <img class="iphone-vertical" src="assets/img/iphoneVertical.png" width="240" height="483"
-                        alt="iPhone in landscape orientation" />
-                    <img class="iphone-horizontal" src="assets/img/iphoneHorizontal.png" width="484" height="240"
-                        alt="iPhone in album orientation" />
-                    <button class="button button-next">
-                        <img src="assets/img/chev.svg" width="16" height="27" alt="next slide" />
-                    </button>
+                    <div class="slide slide1">
+                        <img class="iphone-vertical" src="assets/img/iphoneVertical.png" width="240" height="483"
+                            alt="iPhone in landscape orientation" />
+                        <img class="iphone-horizontal" src="assets/img/iphoneHorizontal.png" width="484" height="240"
+                            alt="iPhone in album orientation" />
+                    </div>
+                    <div class="slider-buttons">
+                        <button class="button button-previous">
+                            <img src="assets/img/chev.svg" width="16" height="27" alt="previous slide" />
+                        </button>
+                        <button class="button button-next">
+                            <img src="assets/img/chev.svg" width="16" height="27" alt="next slide" />
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
